@@ -24,8 +24,8 @@ jobs:
       - name: Install
         run: make install
 
+      - name: Validate
+        run: make validate
+
       - name: Run linter
         run: make lint
-
-      - name: Run tests
-        run: make test
