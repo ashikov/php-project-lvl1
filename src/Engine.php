@@ -21,7 +21,7 @@ function playGame(array $data, string $description): void
         $userAnswer = prompt('Your answer');
 
         if ($userAnswer !== $answer) {
-            line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'.");
+            line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$answer}'.");
             line("Let's try again, {$name}!");
             return;
         }
