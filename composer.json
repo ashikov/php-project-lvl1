@@ -7,5 +7,6 @@
             "email": "rmn.shkv@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "license": "MIT"
 }
