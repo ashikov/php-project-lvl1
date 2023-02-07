@@ -10,6 +10,10 @@ const DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no
 
 function isPrime(int $number): bool
 {
+    if ($number === 1) {
+        return false;
+    }
+
     $prime = true;
 
     for ($divisor = 2; $divisor < $number; $divisor++) {
